@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header , h2 {
+    background-color: #085212;
+    color: white;
+    font-family: "Dancing Script" , serif;
+}
+
+h1 {
+   font-size: 50px;
+   text-align: center;
+   font-weight: 100;
+   border-bottom: 1px solid #FA952D;
+   margin-bottom: 5px;
+}
+
+h2 {
+    border-bottom: 1px solid #FA952D;
+    font-size: 30px;
+    font-weight: 200;
+    padding: 3px 10px 3px 20px;
+
+}
+
+.navlinks a {
+    color: white;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 25px;
+}
+.navlinks a:hover {
+    color: #FA952D;
+    transition: color .5s ;
+}
+
+.navlinks {
+    margin: auto;
+    width: 50%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner {
+    width: 100%;
+    height: 450px;
+    background-image: url("banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner p {
+    margin-right: 20px;
+    color: white;
+    position: relative;
+    top: 417px;
+    float: right;
+    font-size: 20px;
+    font-family: "Nothing You Could Do" , serif;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+.services {
+    margin: 90px auto 35px auto;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service {  
+    width: 26%;
+    height: auto;  
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service h3 {
+    font-family: "Lato" , sans-serif;
+    /*font-family: "Dancing Script" , serif;*/
+    color: #FA952D;
+    margin: 15px auto 25px auto;
+    font-size: 22px;
+}
+
+.service img {
+    border: 1px white;
+    border-radius: 25px;
+    width: 100%;
+    height: auto;
+    box-shadow: 10px 10px rgb(221, 221, 221);
+}
+
+.service img:hover {
+    box-shadow: 0px 0px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.service img:hover + h3 {
+    margin-top: 10px;
+}
+
+.service a:hover {
+    box-shadow: 0px 0px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.service a:hover + h3 {
+    margin-top: 10px;
+}
+
+.container-team {
+    background-image: url("ser_back.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%; 
+}
+
+.members {  
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.member {
+    margin: 8% auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 30%;
+    height: auto;
+    display: flex;
+    color: white;
+}
+
+.member img {
+    width: 50%;
+    height: auto;
+}
+
+.member p {
+    width: 50%;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.member h4 {
+    color: #FA952D;
+    margin: 10px;
+    font-family: "Nothing You Could Do" , serif;
+    font-size: 22px;
+}
+
+footer {
+    width: 100%;
+    height: 130px;
+    background-color: #085212;
+}
+
+footer .info {
+    position: relative;
+    top: 15px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    color: white;
+    font-size: 22px;
+    font-weight: 200;
+    border-bottom: 1px solid #FA952D;
+}
+
+footer .info p {
+    padding-bottom: 15px;
+}
+
+footer .copyright {
+    position: relative;
+    top: 15px;
+    color: #FA952D;
+    padding-left: 20px;
+    padding-top: 3px;
+    font-size: 18px;
+}

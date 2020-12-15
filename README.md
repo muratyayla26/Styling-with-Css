@@ -3,4 +3,4 @@
 
 ## Technologies
 * CSS 3
-*HTML 5
+* HTML 5
